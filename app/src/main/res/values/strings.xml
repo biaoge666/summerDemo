@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="launcherDis">暑期学习项目</string>
+    <string name="title_bar_dis">知识库</string>
+    <string name="chnagyongkuangjia">常用框架</string>
+    <string name="third">第三方</string>
+    <string name="custom">自定义</string>
+    <string name="other">其它</string>
+    <string name="android_and_h5">android and h5</string>
+    <string name="_1_java_h5">1.java代码和h5互调</string>
+    <string name="_2_h5_android">2.h5调用android播放视频</string>
+    <string name="_3_h5_android">3.h5调用android拨打电话</string>
+    <string name="parse_json">手动解析JSON</string>
+    <string name="tv_title_bar">知识体系</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.customview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+
+            <!-- 防止横竖屏切换时屏幕字叠加,数据被重新创建问题 -->
+        </activity>
+        <activity android:name=".youku.YoukuActivity" />
+        <activity android:name=".okhttp.OKHttpActivity" />
+        <activity android:name=".json.NativeJsonParseActivity" />
+        <activity android:name=".json.GsonActivity" />
+        <activity android:name=".json.FastJsonActivity" />
+        <activity android:name=".picasso.activity.PicassoActivity" />
+        <activity android:name=".picasso.activity.PicassoListviewActivity" />
+        <activity android:name=".picasso.activity.PicassoTransfromationsActivity" />
+        <activity android:name=".glide.activity.GlideActivity" />
+        <activity android:name=".glide.activity.GlideBaseActivity" />
+        <activity android:name=".glide.activity.GlideRecyclerviewActivity" />
+        <activity android:name=".glide.activity.GlideTranformationsActivity"></activity>
+    </application>
+
+</manifest>
